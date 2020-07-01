@@ -1,0 +1,53 @@
+body{
+  padding: 0; margin: 0;
+}
+.head{
+  background-color: white;
+}
+.head img{
+  width: 191.4px;
+  height: 66px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.menu{
+  display: flex;
+  justify-content: flex-end;
+}
+.menu-item{
+  display: flex;
+  align-items: center;
+  height: 66px;
+}
+.menu-item li{
+  list-style-type: none;
+  margin: 0 100px;
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+}
+.menu-item a{
+  color: black;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+.menu-item a:hover{
+  border-bottom: 2px solid black;
+}
+/*이미지 */
+.visual{
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.visual img{
+  display: flex;
+  width: 98%;
+  height: auto;
+  overflow: hidden;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-right: auto;
+}

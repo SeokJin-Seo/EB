@@ -8,8 +8,8 @@ body{
   width: 191.4px;
   height: 66px;
   position: absolute;
-  margin-left: 15px;
-  margin-top: 15px;
+  margin-left: 20px;
+  margin-top: 30px;
 }
 .menu{
   display: flex;
@@ -23,6 +23,7 @@ body{
 .menu-item li{
   list-style-type: none;
   margin: 0 100px;
+  margin-top: 20px;
   font-size: 1.5em;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 300;
@@ -43,43 +44,12 @@ body{
   margin: 0;
 }
 .visual img{
-  display: inline-block;
-  width: 99%;
+  display: flex;
+  width: 98%;
   height: auto;
   overflow: hidden;
   position: relative;
   margin-left: auto;
+  margin-top: 30px;
   margin-right: auto;
-}
-.visual button{
-  position: absolute;
-  z-index: 10;
-  top: 50%;
-  transform: translateY(-50);;
-  width: 71px;
-  height: 71px;
-  background-color: rgba(255, 0, 0, 0);
-  border: none;
-  display: none;
-}
-.visual button:before{
-  font-family: 'xeicon';
-  color:black;
-  font-size: 40px;
-}
-.visual button.slick-prev{
-  left: 0;
-  font-size: 0;
-  color: transparent;
-}
-.visual button.slick-prev:before{
-  content:"\e93d";
-}
-.visual button.slick-next{
-  right: 0;
-  font-size: 0;
-  color: transparent;
-}
-.visual button.slick-next:before{
-  content:"\e940";
 }
